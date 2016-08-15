@@ -1,0 +1,46 @@
+@import "../../lib/element/yo-loading";
+.m-detail{
+	@include flexbox();
+	@include flex-direction(column);
+	width:100%;
+	height:100%;
+	.header{
+		height:.44rem;
+		background:#0CC140;
+		>ul{
+			@include flexbox();
+			width:100%;
+			height:100%;
+			>li{
+				width:.44rem;
+				height:100%;
+				color:#fff;
+				text-align:center;
+				line-height:.44rem;
+				&:nth-of-type(1){
+					font-size:.14rem;
+				}
+				&:nth-of-type(2){
+					@include flex(1);
+					font-size:.16rem;
+				}
+				&:nth-of-type(3){
+					font-size:.2rem;
+				}
+			}
+		}
+	}
+	section{
+		.detail_box{
+			padding:.08rem;
+			@include box-sizing(border-box);
+			img{
+			width:100%;
+		}
+		article{
+			font-size:.12rem;
+			line-height:.25rem;
+		}
+		}
+	}
+}

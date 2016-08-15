@@ -1,0 +1,30 @@
+@import "../../lib/fragment/yo-list";
+@import "../../lib/element/yo-input";
+.m-register{
+	header{
+		height:.44rem;
+		@include border(0 0 1px 0,#ccc);
+		position:relative;
+		i,b{
+			display:block;
+			width:.5rem;
+			height:.44rem;
+			position:absolute;
+			text-align:center;
+			line-height:.44rem;
+			font-size:.14rem;
+		}
+		i{
+			left:0;
+			top:0;
+		}
+		b{
+			right:0;
+			top:0;
+		}
+	}
+	.bd{
+		@include box-sizing(border-box);
+		padding:.08rem;
+	}
+}

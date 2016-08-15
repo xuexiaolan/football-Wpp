@@ -1,0 +1,12 @@
+<div class='m-container'>
+	<div class='m-wrapper'></div>
+	<footer class='footer'>
+		<ul>
+			<li action-type='switch.tabs' data-tag='home' class="active"><i class='icon iconfont'>&#xe603;</i><b>首页</b></li>
+			<li action-type='switch.tabs' data-tag='find'><i class='icon iconfont'>&#xe602;</i><b>发现</b></li>
+			<li action-type='switch.tabs'><i class='icon iconfont'>&#xe663;</i></li>
+			<li action-type='goto.my' data-tag='my'><i class='icon iconfont'>&#xe608;</i><b>我的</b></li>
+			<li action-type='goto.exit' data-tag='exit'><i class='icon iconfont'>&#xe61c;</i><b>退出</b></li>
+		</ul>
+	</footer>
+</div>

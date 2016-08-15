@@ -1,0 +1,17 @@
+<div class="swiper-container">
+  	<div class="swiper-wrapper">
+	    <div class="swiper-slide">
+	    	<img src="/img/slide1.png">
+	    </div>
+	    <div class="swiper-slide">
+	    	<img src="/img/slide2.png">
+	    </div>
+	    <div class="swiper-slide">
+	    	<img src="/img/slide3.png">
+	    </div>
+	    <div class="swiper-slide">
+	    	<img src="/img/slide4.png">
+	    	<p class='go_index' action-type='go_index'></p>
+	    </div>
+  	</div>
+</div>

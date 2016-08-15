@@ -1,0 +1,48 @@
+<div class='m-find'>
+	<div class='m-header'>
+		<a href='#' class='icon iconfont'>&#xe859;</a>
+		<h1>发现</h1>
+	</div>
+	<div class='m-nav'>
+		<ul>
+			<li>
+				<input type='text' placeholder='请输入昵称'/>
+			</li>
+			<li>
+				<button>取消</button>
+			</li>
+		</ul>
+	</div>
+	<section>
+		<ul>
+			<li>
+				<img src='./img/Pikachu.jpg'/>
+			</li>
+			<li>
+				<h2>朴智星</h2>
+				<p>朴智星韩国战中国需早做好准备</p>
+				<button>关注</button>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<img src='./img/Pikachu.jpg'/>
+			</li>
+			<li>
+				<h2>朴智星</h2>
+				<p>朴智星韩国战中国需早做好准备</p>
+				<button>关注</button>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<img src='./img/Pikachu.jpg'/>
+			</li>
+			<li>
+				<h2>朴智星</h2>
+				<p>朴智星韩国战中国需早做好准备</p>
+				<button>关注</button>
+			</li>
+		</ul>
+	</section>
+</div>

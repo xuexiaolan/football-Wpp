@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import "../lib/core/reset";
+@import "../lib/core/swiper-3.3.1.min.css";
+@import "./module/index";
+@import "./module/home";
+@import "./module/my";
+@import "./module/guide";
+@import "./module/find";
+@import "./module/detail";
+@import "./module/exit";
+@import "../lib/widget/yo-dialog";
+@import "../lib/element/yo-btn";
+@import "./module/register";
+@import "../lib/element/yo-loading";
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+spa-app{
+	position:absolute;
+	overflow:hidden;
+}
+spa-view{
+	position:absolute;
+	z-index:0;
+	top:0;
+	left:0;
+	bottom:0;
+	width:100%;
+	@include flexbox(flex);
+	@include flex-direction(column);
+	background:#fff!important;
+}

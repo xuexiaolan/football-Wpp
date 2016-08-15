@@ -1,0 +1,18 @@
+<div class="m-detail">
+	<header class="header">
+		<ul>
+			<li action-type="go.back">返回</li>
+			<li ms-text="title"></li>
+			<li class="icon iconfont">&#xe62c;</li>
+		</ul>
+	</header>
+	<section ms-visible="!isShowLoading">
+		<div class="detail_box">
+			<p><img ms-src="imgSrc"/></p>
+			<article ms-text="description"></article>
+		</div>
+	</section>
+	<div class="yo-loading" ms-visible="isShowLoading">
+    	<div class="inner"><i class="yo-ico"></i></div>
+	</div>
+</div>

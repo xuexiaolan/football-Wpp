@@ -1,0 +1,23 @@
+/*为yo-dialog添加一个类*/
+@import "../../lib/widget/yo-dialog";
+@include yo-dialog(
+	$name:a,
+	$height:1.8rem
+){
+	.hd{
+		border-bottom:1px solid #ccc; 
+		h2{
+			color:green;
+		}
+	}
+	.ft button:first-child{
+		color:green;
+		background:pink;
+	}
+	.ft button:last-child{
+		color:green;
+		background:yellow;
+	}
+}
+
+	

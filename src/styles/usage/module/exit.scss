@@ -1,0 +1,25 @@
+.m-exit{
+	width:100%;
+	height:100%;
+	.m-img{
+		width:100%;
+		height:2rem;
+		background:#ddd;
+	}
+	
+	.m-content{
+		height:10rem;
+		background:pink;
+	}
+}
+.m-menu{
+	width:100%;
+	height:.44rem!important;
+	background:yellow;
+	&.fix{
+		position:fixed;
+		left:0;
+		top:0;
+		height:.44rem;
+	}
+}

@@ -1,0 +1,7 @@
+<div class="m-exit" spa-widget="scroll" data-scroll-id="exitScroll">
+	<div>
+		<div class="m-img"></div>
+		<div class="m-menu"></div>
+		<div class="m-content"></div>
+	</div>
+</div>

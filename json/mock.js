@@ -1,0 +1,20 @@
+//配置php文件
+module.exports={
+	rules:[
+		{
+			pattern:/\/api\/getLivelist.php\?isRe=origin$/,
+            respondwith:"./livelist.json"
+		},
+		{
+			pattern:/\/api\/getLivelist.php\?isRe=more$/,
+            respondwith:"./livelist-more.json"
+		},
+		{
+			pattern:/\/api\/getLivelist.php\?isRe=refresh$/,
+            respondwith:"./livelist-refresh.json"
+		},{
+			pattern:/\/api\/getLivelist.php\?id=\d+$/,
+            respondwith:"./liveDetail.json"
+		}
+	]
+}

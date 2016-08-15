@@ -1,0 +1,65 @@
+.m-container{
+	@include flexbox();
+	@include flex-direction(column);
+	@include flex(1);
+	width:100%;
+	.m-wrapper{
+		@include flex(1);
+		width:100%;
+		position:relative;
+	}
+	.footer{
+		height:.44rem;
+		background:#fff;
+		z-index:1005;
+		ul{
+			@include flexbox();
+			height:100%;
+			padding-top:.03rem;
+			@include border(1px 0 0 0,#333);
+			@include box-sizing(border-box);
+			li{
+				@include flexbox();
+				@include flex-direction(column);
+				@include flex(1);
+				height:100%;
+				text-align:center;
+				color:#333;				
+				@include box-sizing(border-box);		
+				i{
+					font-size:.16rem;
+				}				
+				b{
+					font-size:.12rem;
+					font-weight:normal;
+					display:block;
+				}
+				&.add{
+					color:#10BC4C;
+				}
+				&:nth-of-type(3){
+					position:relative;
+					i{
+						width:.5rem;
+						height:.5rem;
+						position:absolute!important;
+						left:50%;
+						top:-0.1rem;
+						@include border(1px,#959595,solid,50%);
+						@include transform(translate(-50%,0));
+						font-size:.3rem;
+						text-align:center;
+						background:#fff;
+						z-index:1000;
+					}
+				}
+				&.active{
+					color:green;
+				}		
+			}
+		}
+	}
+}
+
+	
+

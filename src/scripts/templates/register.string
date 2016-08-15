@@ -1,0 +1,19 @@
+<div class="m-register">
+  <header>
+    <i action-type="tap.cancel">取消</i>
+    <b action-type="tap.sure">确定</b>
+  </header>
+  <div class="bd">
+    <div class="yo-list">
+      <label class="item item-input">
+        <input type="text" class="yo-input" placeholder="手机号" id="phone"/>
+      </label>
+      <label class="item item-input">
+        <input type="text" class="yo-input" placeholder="密码" id="pwd" />
+      </label>
+      <label class="item item-input">
+        <input type="text" class="yo-input" placeholder="昵称" id="name"/>
+      </label>
+    </div>
+  </div>
+</div>
