@@ -10,5 +10,5 @@ require("./views/detail");
 require("./views/register");
 //spa应用中默认的参数为:indexView(默认的是引导页)
 SPA.config({
-	indexView:"guide"
+	indexView:"index"
 })
