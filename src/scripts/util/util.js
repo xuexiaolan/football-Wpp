@@ -1,6 +1,9 @@
 var util={
 	publicFn:function(el){
 		el.addClass("active").siblings().removeClass("active");
+	},
+	setFocus:function(){
+		console.log("football");
 	}
 }
 
