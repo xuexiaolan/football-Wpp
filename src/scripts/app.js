@@ -12,4 +12,4 @@ require("./views/register");
 SPA.config({
 	indexView:"guide"
 })
-console.log("hello")
+console.log("ho")
