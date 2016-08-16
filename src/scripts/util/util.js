@@ -4,6 +4,9 @@ var util={
 	},
 	setFocus:function(){
 		console.log("football");
+	},
+	addFn:function(){
+		console.log("add");
 	}
 }
 
