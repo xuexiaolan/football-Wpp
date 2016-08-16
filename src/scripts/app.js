@@ -12,4 +12,8 @@ require("./views/register");
 SPA.config({
 	indexView:"guide"
 })
+<<<<<<< HEAD
 console.log("ho")
+=======
+console.log("add a word ok");
+>>>>>>> 20160815-footballWpp-bugfix
