@@ -12,3 +12,4 @@ require("./views/register");
 SPA.config({
 	indexView:"guide"
 })
+console.log("add a word ok");
