@@ -7,6 +7,9 @@ var util={
 	},
 	masterFn:function(){
 		console.log("master");
+
+	addFn:function(){
+		console.log("add");
 	}
 }
 
